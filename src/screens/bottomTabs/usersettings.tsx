@@ -51,6 +51,7 @@ export default function UserSettingsScreen(props: any) {
     } catch (error) {
       if (error) {
         setLoading(false);
+        console.log('hello');
       }
     } finally {
       setLoading(false);
